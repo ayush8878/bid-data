@@ -20,6 +20,7 @@ java -jar target/big-data-1.jar --input.path={{input_path}} --processing.path={{
 NOTE: Incase any path is not provided , default path will be referred
 
 # Application Details
+```
 > Input Files will be processed from provided input directory or default which will further create below sub-directories
 ├───input
 │   ├───processed
@@ -30,7 +31,7 @@ NOTE: Incase any path is not provided , default path will be referred
 |        └───20210802 
 ├───report
 │   └───20210802 
-
+```
 > Application only support Files with text content as of now but can be extented to support more
 > At a time multiple files can process simultaneously
 > Duplicate files will not be processed
