@@ -15,7 +15,7 @@
                     file:{{report.path}}/${date:now:yyyyMMdd}?fileName=${file:name}.report&amp;charset=utf-8
                 </simple>
             </recipientList>
+            <log loggingLevel="INFO" message="Completed  ${headers.CamelFileName} File Processing Successfully with statistics: ${body}"/>
         </doTry>
-        <log loggingLevel="INFO" message="Completed  ${headers.CamelFileName} File Processing Successfully with statistics: ${body}"/>
     </route>
 </routes>
