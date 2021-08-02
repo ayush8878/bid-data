@@ -41,7 +41,9 @@ NOTE: Incase any path is not provided , default path will be referred
 - On successful processing file will be moved to processed directory and statistics will be stored in reports
 
 Below are the statistics Report will contain
--wordCount=1
--specialCharacterCount=11
--dotCount=0
--mostUsedWord=hello
+```
+wordCount=1
+specialCharacterCount=11
+dotCount=0
+mostUsedWord=hello
+```
